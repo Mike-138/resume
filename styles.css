@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    border: 1px solid black; /* remove once page is well structured */
+}
+
+.main-background {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+main {
+    width: min(768px, 100%);
+    background-color: purple;
+}
+
+.hero-container {
+    min-height: 100vh;
+}
+
+footer {
+    width: min(768px, 100%);
+    background-color: brown;
+}
+
+.footer-background {
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
